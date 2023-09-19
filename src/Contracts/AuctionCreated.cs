@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AuctionService.DTOs
+namespace Contracts
 {
-    public class AuctionDto
+    public class AuctionCreated
     {
         public Guid Id { get; set; }
 
@@ -29,6 +29,6 @@ namespace AuctionService.DTOs
         public int Year { get; set; }
         public string Color { get; set; }
         public int Mileage { get; set; }
-        public string ImageUrl { get; set; }            
+        public string ImageUrl { get; set; }      
     }
 }
